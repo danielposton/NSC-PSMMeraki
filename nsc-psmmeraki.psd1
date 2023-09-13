@@ -51,7 +51,7 @@ Description = 'Meraki Utilites'
 # ProcessorArchitecture = ''
 
 # Modules that must be imported into the global environment prior to importing this module
- RequiredModules = @('AZ')
+ RequiredModules = @('AZ', 'Join-Object')
 
 # Assemblies that must be loaded prior to importing this module
 # RequiredAssemblies = @()
@@ -69,7 +69,7 @@ Description = 'Meraki Utilites'
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = @('Get-MerakiAMPStatus', 'Get-MerakiDevices', 'Get-MerakiGroupPolices', 'Get-MerakiIntrusionStatus', 'Get-MerakiNetworks', 'Get-MerakiOrganization', 'Get-MerakiSSIDs', 'Get-MerakiUplinks', 'Get-MerakiUpLinkStatus', 'Get-MerakiWANIPs', 'Set-MerakiAMPSettings' )
+FunctionsToExport = @('Get-MerakiAMPStatus', 'Get-MerakiClient', 'Get-MerakiClients', 'Get-MerakiContentFiltering', 'Get-MerakiDevices', 'Get-MerakiGroupPolices', 'Get-MerakiIntrusionStatus', 'Get-MerakiNetworks', 'Get-MerakiOrganization', 'Get-MerakiSSIDs', 'Get-MerakiUplinks', 'Get-MerakiUpLinkStatus', 'Get-MerakiWANIPs', 'Set-MerakiAMPSettings', 'Get-MerakiSwitchACLs', 'Get-MerakiVLANS')
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = @()
